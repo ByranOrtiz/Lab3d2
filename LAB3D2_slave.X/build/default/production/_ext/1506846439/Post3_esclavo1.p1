@@ -1,0 +1,550 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"4281 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4281: extern volatile __bit SSPIF __attribute__((address(0x63)));
+[v _SSPIF `Vb ~T0 @X0 0 e@99 ]
+"49 C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/SPI.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/SPI.h: 49: char spiRead();
+[v _spiRead `(uc ~T0 @X0 0 e? ]
+"47
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/SPI.h: 47: void spiWrite(char);
+[v _spiWrite `(v ~T0 @X0 0 ef1`uc ]
+"465 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 465:     struct {
+[s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S16 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"475
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 475:     struct {
+[s S17 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S17 . . TMR0IF . TMR0IE ]
+"464
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 464: typedef union {
+[u S15 `S16 1 `S17 1 ]
+[n S15 . . . ]
+"482
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 482: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS15 ~T0 @X0 0 e@11 ]
+"228
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 228: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"4107
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4107: extern volatile __bit RB0 __attribute__((address(0x30)));
+[v _RB0 `Vb ~T0 @X0 0 e@48 ]
+"4110
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4110: extern volatile __bit RB1 __attribute__((address(0x31)));
+[v _RB1 `Vb ~T0 @X0 0 e@49 ]
+[p mainexit ]
+"52 C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 52: void setup(void);
+[v _setup `(v ~T0 @X0 0 ef ]
+"16 C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/ADC.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/ADC.h: 16: int adc_read();
+[v _adc_read `(i ~T0 @X0 0 e? ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"3387 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3387: extern volatile unsigned char ANSEL __attribute__((address(0x188)));
+[v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
+"3449
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3449: extern volatile unsigned char ANSELH __attribute__((address(0x189)));
+[v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
+"1478
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1478: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"1602
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1602: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"352
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 352: extern volatile unsigned char PORTD __attribute__((address(0x008)));
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"15 C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/ADC.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/ADC.h: 15: void adc_init(int channel);
+[v _adc_init `(v ~T0 @X0 0 ef1`i ]
+"543 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 543:     struct {
+[s S19 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S19 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"542
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 542: typedef union {
+[u S18 `S19 1 ]
+[n S18 . . ]
+"553
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 553: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x00C)));
+[v _PIR1bits `VS18 ~T0 @X0 0 e@12 ]
+"1708
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1708:     struct {
+[s S63 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S63 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1707
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1707: typedef union {
+[u S62 `S63 1 ]
+[n S62 . . ]
+"1718
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1718: extern volatile PIE1bits_t PIE1bits __attribute__((address(0x08C)));
+[v _PIE1bits `VS62 ~T0 @X0 0 e@140 ]
+"1422
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1422:     struct {
+[s S53 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S53 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+"1421
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1421: typedef union {
+[u S52 `S53 1 ]
+[n S52 . . ]
+"1433
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1433: extern volatile TRISAbits_t TRISAbits __attribute__((address(0x085)));
+[v _TRISAbits `VS52 ~T0 @X0 0 e@133 ]
+"125 C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 125:     spiInit(SPI_SLAVE_SS_EN, SPI_DATA_SAMPLE_MIDDLE, SPI_CLOCK_IDLE_LOW, SPI_IDLE_2_ACTIVE);
+[c E1292 32 33 34 35 36 37 .. ]
+[n E1292 . SPI_MASTER_OSC_DIV4 SPI_MASTER_OSC_DIV16 SPI_MASTER_OSC_DIV64 SPI_MASTER_TMR2 SPI_SLAVE_SS_EN SPI_SLAVE_SS_DIS  ]
+[c E1300 0 128 .. ]
+[n E1300 . SPI_DATA_SAMPLE_MIDDLE SPI_DATA_SAMPLE_END  ]
+[c E1304 16 0 .. ]
+[n E1304 . SPI_CLOCK_IDLE_HIGH SPI_CLOCK_IDLE_LOW  ]
+[c E1308 0 64 .. ]
+[n E1308 . SPI_IDLE_2_ACTIVE SPI_ACTIVE_2_IDLE  ]
+"46 C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/SPI.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/SPI.h: 46: void spiInit(Spi_Type, Spi_Data_Sample, Spi_Clock_Idle, Spi_Transmit_Edge);
+[v _spiInit `(v ~T0 @X0 0 ef4`E1292`E1300`E1304`E1308 ]
+"15 C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/botones.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/botones.h: 15: void ioc_init(char pin);
+[v _ioc_init `(v ~T0 @X0 0 ef1`uc ]
+"14 C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c
+[p x FOSC  =  INTRC_NOCLKOUT ]
+"15
+[p x WDTE  =  OFF        ]
+"16
+[p x PWRTE  =  OFF       ]
+"17
+[p x MCLRE  =  OFF       ]
+"18
+[p x CP  =  OFF          ]
+"19
+[p x CPD  =  OFF         ]
+"20
+[p x BOREN  =  OFF       ]
+"21
+[p x IESO  =  OFF        ]
+"22
+[p x FCMEN  =  OFF       ]
+"23
+[p x LVP  =  OFF         ]
+"26
+[p x BOR4V  =  BOR40V    ]
+"27
+[p x WRT  =  OFF         ]
+"54 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 292: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"354
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 354: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"416
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 416: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"454
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 454: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"461
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 461: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"539
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 539: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"595
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 595: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"652
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 652: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"659
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 659: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"666
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 666: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"673
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 673: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"767
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 767: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"774
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 774: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"845
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 845: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"852
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 852: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"922
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 922: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"929
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 929: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"936
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 936: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"943
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 943: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"1040
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1040: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1135
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1135: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1142
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1142: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1149
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1149: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1156
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1156: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1163
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1163: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1170
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1170: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1240
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1240: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1247
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1247: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1348
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1348: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1418
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1418: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1480
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1480: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1542
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1542: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1604
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1604: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1666
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1666: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1704
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1704: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1760
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1760: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1817
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1817: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1864
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1864: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1929
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1929: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1981
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1981: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"2043
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2043: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"2050
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2050: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"2057
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2057: __asm("SSPMSK equ 093h");
+[; <" SSPMSK equ 093h ;# ">
+"2062
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2062: __asm("MSK equ 093h");
+[; <" MSK equ 093h ;# ">
+"2179
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2179: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2348
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2348: __asm("WPUB equ 095h");
+[; <" WPUB equ 095h ;# ">
+"2418
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2418: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"2488
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2488: __asm("VRCON equ 097h");
+[; <" VRCON equ 097h ;# ">
+"2558
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2558: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2644
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2644: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2706
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2706: __asm("SPBRGH equ 09Ah");
+[; <" SPBRGH equ 09Ah ;# ">
+"2776
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2776: __asm("PWM1CON equ 09Bh");
+[; <" PWM1CON equ 09Bh ;# ">
+"2846
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2846: __asm("ECCPAS equ 09Ch");
+[; <" ECCPAS equ 09Ch ;# ">
+"2928
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2928: __asm("PSTRCON equ 09Dh");
+[; <" PSTRCON equ 09Dh ;# ">
+"2972
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2972: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2979
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2979: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"3013
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3013: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"3066
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3066: __asm("CM1CON0 equ 0107h");
+[; <" CM1CON0 equ 0107h ;# ">
+"3131
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3131: __asm("CM2CON0 equ 0108h");
+[; <" CM2CON0 equ 0108h ;# ">
+"3196
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3196: __asm("CM2CON1 equ 0109h");
+[; <" CM2CON1 equ 0109h ;# ">
+"3247
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3247: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"3252
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3252: __asm("EEDAT equ 010Ch");
+[; <" EEDAT equ 010Ch ;# ">
+"3259
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3259: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"3266
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3266: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"3273
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3273: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"3280
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3280: __asm("SRCON equ 0185h");
+[; <" SRCON equ 0185h ;# ">
+"3337
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3337: __asm("BAUDCTL equ 0187h");
+[; <" BAUDCTL equ 0187h ;# ">
+"3389
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3389: __asm("ANSEL equ 0188h");
+[; <" ANSEL equ 0188h ;# ">
+"3451
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3451: __asm("ANSELH equ 0189h");
+[; <" ANSELH equ 0189h ;# ">
+"3501
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3501: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"3546
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"45 C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 45: uint8_t temporal = 0;
+[v _temporal `uc ~T0 @X0 1 e ]
+[i _temporal
+-> -> 0 `i `uc
+]
+"46
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 46: uint16_t adcVal;
+[v _adcVal `ui ~T0 @X0 1 e ]
+"47
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 47: uint8_t contadorB=0;
+[v _contadorB `uc ~T0 @X0 1 e ]
+[i _contadorB
+-> -> 0 `i `uc
+]
+[v $root$_isr `(v ~T0 @X0 0 e ]
+"56
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 56: void __attribute__((picinterrupt(("")))) isr(void){
+[v _isr `(v ~T1 @X0 1 ef ]
+{
+[e :U _isr ]
+[f ]
+"57
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 57:    if(SSPIF == 1){
+[e $ ! == -> _SSPIF `i -> 1 `i 139  ]
+{
+"59
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 59:        if (spiRead()==1){
+[e $ ! == -> ( _spiRead ..  `i -> 1 `i 140  ]
+{
+"60
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 60:            spiWrite(contadorB);
+[e ( _spiWrite (1 -> _contadorB `uc ]
+"61
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 61:            SSPIF = 0;
+[e = _SSPIF -> -> 0 `i `b ]
+"70
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 70:        }
+}
+[e :U 140 ]
+"71
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 71:        if (spiRead()==2){
+[e $ ! == -> ( _spiRead ..  `i -> 2 `i 141  ]
+{
+"72
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 72:            spiWrite(adcVal);
+[e ( _spiWrite (1 -> _adcVal `uc ]
+"73
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 73:            SSPIF = 0;
+[e = _SSPIF -> -> 0 `i `b ]
+"74
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 74:        }
+}
+[e :U 141 ]
+"75
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 75:     }
+}
+[e :U 139 ]
+"77
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 77:    if(INTCONbits.RBIF){
+[e $ ! != -> . . _INTCONbits 0 0 `i -> 0 `i 142  ]
+{
+"78
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 78:         PORTB = PORTB;
+[e = _PORTB _PORTB ]
+"79
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 79:         INTCONbits.RBIF = 0;
+[e = . . _INTCONbits 0 0 -> -> 0 `i `uc ]
+"80
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 80:         if(RB0==0)
+[e $ ! == -> _RB0 `i -> 0 `i 143  ]
+"81
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 81:            contadorB++;
+[e ++ _contadorB -> -> 1 `i `uc ]
+[e :U 143 ]
+"83
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 83:         if(RB1==0)
+[e $ ! == -> _RB1 `i -> 0 `i 144  ]
+"84
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 84:            contadorB--;
+[e -- _contadorB -> -> 1 `i `uc ]
+[e :U 144 ]
+"86
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 86:     }
+}
+[e :U 142 ]
+"88
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 88: }
+[e :UE 138 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"92
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 92: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"93
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 93:     setup();
+[e ( _setup ..  ]
+"97
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 97:     while(1){
+[e :U 147 ]
+{
+"100
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 100:         adcVal= adc_read();
+[e = _adcVal -> ( _adc_read ..  `ui ]
+"101
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 101:        _delay((unsigned long)((250)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"102
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 102:     }
+}
+[e :U 146 ]
+[e $U 147  ]
+[e :U 148 ]
+"103
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 103:     return;
+[e $UE 145  ]
+"104
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 104: }
+[e :UE 145 ]
+}
+"108
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 108: void setup(void){
+[v _setup `(v ~T0 @X0 1 ef ]
+{
+[e :U _setup ]
+[f ]
+"109
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 109:     ANSEL = 0;
+[e = _ANSEL -> -> 0 `i `uc ]
+"110
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 110:     ANSELH = 0;
+[e = _ANSELH -> -> 0 `i `uc ]
+"112
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 112:     TRISB = 7;
+[e = _TRISB -> -> 7 `i `uc ]
+"113
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 113:     TRISD = 0;
+[e = _TRISD -> -> 0 `i `uc ]
+"115
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 115:     PORTB = 0;
+[e = _PORTB -> -> 0 `i `uc ]
+"116
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 116:     PORTD = 0;
+[e = _PORTD -> -> 0 `i `uc ]
+"118
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 118:     adc_init(0);
+[e ( _adc_init (1 -> 0 `i ]
+"120
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 120:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"121
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 121:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"122
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 122:     PIR1bits.SSPIF = 0;
+[e = . . _PIR1bits 0 3 -> -> 0 `i `uc ]
+"123
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 123:     PIE1bits.SSPIE = 1;
+[e = . . _PIE1bits 0 3 -> -> 1 `i `uc ]
+"124
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 124:     TRISAbits.TRISA5 = 1;
+[e = . . _TRISAbits 0 5 -> -> 1 `i `uc ]
+"125
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 125:     spiInit(SPI_SLAVE_SS_EN, SPI_DATA_SAMPLE_MIDDLE, SPI_CLOCK_IDLE_LOW, SPI_IDLE_2_ACTIVE);
+[e ( _spiInit (4 , , , . `E1292 4 . `E1300 0 . `E1304 1 . `E1308 0 ]
+"126
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 126:     ioc_init(0);
+[e ( _ioc_init (1 -> -> 0 `i `uc ]
+"127
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 127:     ioc_init(1);
+[e ( _ioc_init (1 -> -> 1 `i `uc ]
+"137
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/LAB3/LAB3D2_slave.X/Post3_esclavo1.c: 137: }
+[e :UE 149 ]
+}
